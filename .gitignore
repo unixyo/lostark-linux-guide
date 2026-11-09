@@ -1,0 +1,43 @@
+config.local.env
+*.local.env
+.env
+.env.*
+!.env.example
+
+# Local Wine prefixes / credentials / downloads / personal screenshots
+compatdata/
+*/compatdata/
+pfx/
+logs/
+screenshots/
+*.log
+*.dmp
+*.wer
+*.xwd
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.sqlite
+*.db
+*.bak
+
+# Proprietary programs and game files
+*.exe
+*.dll
+*.sys
+*.xem
+*.lpk
+*.upf
+*.cab
+*.msi
+*.msix
+*.zip
+*.7z
+
+# Editors
+.idea/
+.vscode/
+*~
+*.swp
+__pycache__/
